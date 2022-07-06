@@ -33,6 +33,7 @@
 #index {
 	flex-direction: column;
 	height: max-content;
+	background: url("../images/ondas.svg"), linear-gradient(0deg, var(--primary-color) 18%, var(--secondary-color) 62%);
 }
 
 #index h1 {
@@ -45,6 +46,7 @@
 	width: 100%;
 	padding: 0 2rem;
 	align-self: center;
+	text-shadow: 4px 0px 10px var(--black-color);
 }
 
 #index img {
@@ -83,15 +85,31 @@
 
 .flip-card {
 	background-color: transparent;
-	width: 20rem;
-	height: 25rem;
+	width: 15rem;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .flip-card-front img {
 	object-fit: contain;
 	margin-top: 0.8rem;
-	height: 70%;
+	height: 55%;
 	width: auto;
+}
+
+#services .flip-card-front h2 {
+	font-size: 1.8rem;
+}
+
+.flip-card-back {
+	font-size: 1.2rem;
+}
+
+#services .flip-card-back h1 {
+	font-size: 1.8rem;
 }
 
 .coverage-container {
