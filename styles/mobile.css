@@ -170,7 +170,7 @@ footer {
 	align-items: center;
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+/* @media (max-width: 768px) and (orientation: landscape) {
 	#landscape {
 		display: flex;
 		position: fixed;
@@ -186,4 +186,4 @@ footer {
 		align-items: center;
 		justify-content: center;
 	}
-}
+} */
