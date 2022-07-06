@@ -1,6 +1,7 @@
-window.addEventListener("hashchange", navigator, false);
-window.addEventListener("DOMContentLoaded", navigator, false);
+// window.addEventListener("hashchange", navigator, false);
+// window.addEventListener("DOMContentLoaded", navigator, false);
 window.addEventListener("scroll", navigator, false);
+window.addEventListener("load", setScroll, false);
 
 function navigator() {
 	if (location.hash.startsWith("#index")) {
@@ -21,6 +22,10 @@ function navigator() {
 	}
 }
 
+function setScroll() {
+	document.documentElement.scrollTop = 50;
+}
+
 function inIndex() {
 	logoImage.src = "./images/logo-white.svg";
 	navBar.classList.remove("nav-bar__white");
@@ -38,6 +43,9 @@ function notIndex() {
 function indexActive() {
 	navIndex.classList.add("nav-active");
 
+	navMobile.innerHTML = "";
+	navMobile.innerHTML = "Inicio";
+
 	navAbout.classList.remove("nav-active");
 	navServices.classList.remove("nav-active");
 	navCoverage.classList.remove("nav-active");
@@ -46,6 +54,9 @@ function indexActive() {
 
 function aboutActive() {
 	navAbout.classList.add("nav-active");
+
+	navMobile.innerHTML = "";
+	navMobile.innerHTML = "Acerca de nosotros";
 
 	navIndex.classList.remove("nav-active");
 	navServices.classList.remove("nav-active");
@@ -56,6 +67,9 @@ function aboutActive() {
 function servicesActive() {
 	navServices.classList.add("nav-active");
 
+	navMobile.innerHTML = "";
+	navMobile.innerHTML = "Nuestros Servicios";
+
 	navIndex.classList.remove("nav-active");
 	navAbout.classList.remove("nav-active");
 	navCoverage.classList.remove("nav-active");
@@ -65,6 +79,9 @@ function servicesActive() {
 function coverageActive() {
 	navCoverage.classList.add("nav-active");
 
+	navMobile.innerHTML = "";
+	navMobile.innerHTML = "Cobertura";
+
 	navIndex.classList.remove("nav-active");
 	navAbout.classList.remove("nav-active");
 	navServices.classList.remove("nav-active");
@@ -73,6 +90,9 @@ function coverageActive() {
 
 function contactActive() {
 	navContact.classList.add("nav-active");
+
+	navMobile.innerHTML = "";
+	navMobile.innerHTML = "Contacto";
 
 	navIndex.classList.remove("nav-active");
 	navAbout.classList.remove("nav-active");

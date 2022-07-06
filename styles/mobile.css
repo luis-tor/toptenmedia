@@ -1,0 +1,153 @@
+.nav-bar__logo {
+	display: flex;
+	margin: 2rem;
+	width: 20vw;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-bar__logo img {
+	width: 10rem;
+}
+
+.nav-bar__info {
+	width: 80vw;
+	margin: 0;
+	margin-right: 5%;
+}
+
+.nav-bar__menu {
+	display: none;
+}
+
+#nav-mobile {
+	display: block;
+	color: var(--white-color);
+	font-size: 2rem;
+	background-color: var(--primary-color);
+	padding: 0.5rem 1rem;
+	margin-top: 1.2rem;
+	border-radius: 1.6rem;
+}
+
+#index {
+	flex-direction: column;
+	height: max-content;
+}
+
+#index h1 {
+	font-size: 4rem;
+	position: static;
+}
+
+#index ul {
+	font-size: 3.5rem;
+	width: 100%;
+	padding: 0 2rem;
+	align-self: center;
+}
+
+#index img {
+	display: none;
+}
+
+.aboutline::after {
+	left: 31px;
+}
+
+.container-aboutline {
+	width: 100%;
+	padding-left: 70px;
+	padding-right: 25px;
+}
+
+.container-aboutline::before {
+	left: 60px;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #fff transparent transparent;
+}
+
+.left::after,
+.right::after {
+	left: 15px;
+	z-index: 1;
+}
+
+.right {
+	left: 0;
+}
+
+.services-container {
+	margin: 1rem 0;
+}
+
+.flip-card {
+	background-color: transparent;
+	width: 20rem;
+	height: 25rem;
+}
+
+.flip-card-front img {
+	object-fit: contain;
+	margin-top: 0.8rem;
+	height: 70%;
+	width: auto;
+}
+
+.coverage-container {
+	display: flex;
+	margin-top: 2.4rem;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.coverage-container img {
+	width: 100vw;
+	object-fit: scale-down;
+}
+
+.coverage-data {
+	width: 100%;
+	height: auto;
+	color: var(--black-color);
+	align-self: center;
+	position: static;
+	border-radius: 1rem;
+	right: auto;
+	top: auto;
+	padding: 0 10%;
+}
+
+.coverage-data h2 {
+	color: var(--primary-color);
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+	height: auto;
+	margin-top: 2.4rem;
+	margin-left: 1.2rem;
+	padding: 1rem;
+}
+
+.contact-section {
+	width: auto;
+}
+
+footer {
+	width: 100%;
+	background-color: var(--secondary-color);
+	color: var(--white-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}

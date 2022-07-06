@@ -7,17 +7,23 @@
 		<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 		<link rel="stylesheet" href="./styles/desktop.css" />
+		<link rel="stylesheet" href="./styles/tablet.css" media="screen and (max-width: 768px)" />
+		<link rel="stylesheet" href="./styles/mobile.css" media="screen and (max-width: 425px)" />
 		<title>Top Ten Media - Página web Oficial</title>
 	</head>
 	<body>
-		<nav id="nav-bar" class="nav-bar nav-bar__white">
+		<nav id="nav-bar" class="nav-bar">
 			<div class="nav-bar__logo">
 				<img id="logo" src="./images/logo-white.svg" alt="Logo Top Ten Media" />
 			</div>
 			<div class="nav-bar__info">
 				<p id="group-company" class="nav-bar__info-p">Top Ten Media | Grupo EM 360º</p>
 
-				<ul class="nav-bar__menu">
+				<span class="material-symbols-rounded material-little"> menu </span>
+
+				<p id="nav-mobile">Hola Mundo!</p>
+
+				<ul id="navbar-menu" class="nav-bar__menu">
 					<li class="nav-bar__item" id="nav-index"><a href="#index">Inicio</a></li>
 					<li class="nav-bar__item" id="nav-about"><a href="#about">Nosotros</a></li>
 					<li class="nav-bar__item" id="nav-services"><a href="#services">Servicios</a></li>
@@ -31,11 +37,11 @@
 				<h1>Soluciones integrales en Medios</h1>
 
 				<ul>
-					<li>Radio</li>
-					<li>Televisión</li>
-					<li>Espectaculares</li>
-					<li>Medios Digitales</li>
-					<li>Medios Impresos</li>
+					<li class="index-company__especialities">Radio</li>
+					<li class="index-company__especialities">Televisión</li>
+					<li class="index-company__especialities">Espectaculares</li>
+					<li class="index-company__especialities">Medios Digitales</li>
+					<li class="index-company__especialities">Medios Impresos</li>
 				</ul>
 
 				<img src="./images/t10p02.png" alt="Mujer escuchando radio" />
