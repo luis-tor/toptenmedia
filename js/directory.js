@@ -6,7 +6,7 @@ const employers = [
 		email: "aperez@toptenmedia.com.mx",
 		phone: "55-55-55-55-55",
 		position: "Director",
-		image: "",
+		image: "apg.jpg",
 	},
 	{
 		id: "62c5bdf15519a02911288459",
@@ -15,7 +15,7 @@ const employers = [
 		email: "bguillen@toptenmedia.com.mx",
 		phone: "55-55-55-55-55",
 		position: "Ejecutivo comercial",
-		image: "",
+		image: "bga.jpeg",
 	},
 ];
 
