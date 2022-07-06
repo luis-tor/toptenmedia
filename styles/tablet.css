@@ -18,7 +18,12 @@
 }
 
 #index ul {
-	font-size: 3.5rem;
+	font-size: 3rem;
+}
+
+#index img {
+	width: 20vw;
+	height: auto;
 }
 
 #coverage h1,
