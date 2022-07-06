@@ -476,6 +476,10 @@ footer {
 	padding-left: 10%;
 }
 
+#landscape {
+	display: none;
+}
+
 @keyframes fadeIn {
 	from {
 		opacity: 0;
